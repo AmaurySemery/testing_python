@@ -59,4 +59,6 @@ git checkout parametrize-test
 pytest
 ```
 
+## Pytest
 
+pip install -U pytest

@@ -7,6 +7,9 @@ python nom_du_fichier.py
 python -m unittest nom_du_fichier.<nom du test>
 
 python -m unittest discover <nom du répertoire de test>/
+
+exemple:
+python -m unittest test_string
 """
 class TestString(unittest.TestCase):
     def test_should_capitalize_string(self):
